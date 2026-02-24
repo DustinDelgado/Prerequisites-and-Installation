@@ -29,7 +29,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-![Uploading Screenshot 2026-02-24 at 5.29.34 PM.png…]()
+<img width="623" height="462" alt="Screenshot 2026-02-24 at 5 29 34 PM" src="https://github.com/user-attachments/assets/95a77de6-5bf4-4d75-9ff0-b2dfd4ecefc2" />
+
 
 </p>
 <p>
@@ -46,9 +47,27 @@ Next, install/enable IIS in Windows WITH CGI. On a Windows computer, open the Co
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="500" height="411" alt="Screenshot 2026-02-24 at 5 38 23 PM" src="https://github.com/user-attachments/assets/77b4aebd-fae6-463d-9615-537b723afb56" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, install PHP manager located in the osTicket installation files folder. 
 </p>
 <br />
+
+<p>
+  <img width="500" height="411" alt="Screenshot 2026-02-24 at 5 38 23 PM" src="https://github.com/user-attachments/assets/60578639-818f-4b38-bbb3-ae5d2bc8559e" />
+
+</p>
+<p>
+Next, install the Rewrite Module located in the osTicket installation files folder.
+</p>
+<br />
+
+<p>
+  
+</p>
+<p>
+  From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+</p>
