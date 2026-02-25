@@ -109,3 +109,12 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 <p>
 <img width="823" height="740" alt="Screenshot 2026-02-24 at 5 56 59 PM" src="https://github.com/user-attachments/assets/ab42a25a-4d2f-471f-87d6-fa2ec37bc29e" />
+
+<p>
+<img width="275" height="502" alt="Screenshot 2026-02-24 at 8 31 07 PM" src="https://github.com/user-attachments/assets/9ce04260-1e21-441a-b54a-154a4d0b30e2" />
+
+
+</p>
+<p>
+At this stage, note that some required PHP extensions may not yet be enabled. Return to IIS, navigate to Sites → Default Web Site → osTicket, and then double-click PHP Manager. From there, select “Enable or disable an extension” and enable the following extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. Once these extensions are enabled, refresh the osTicket site in your web browser and observe the changes to confirm that the updates have taken effect.
+</p>
