@@ -118,3 +118,11 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 <p>
 At this stage, note that some required PHP extensions may not yet be enabled. Return to IIS, navigate to Sites → Default Web Site → osTicket, and then double-click PHP Manager. From there, select “Enable or disable an extension” and enable the following extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. Once these extensions are enabled, refresh the osTicket site in your web browser and observe the changes to confirm that the updates have taken effect.
 </p>
+
+<p>
+ <img width="593" height="456" alt="Screenshot 2026-02-24 at 6 12 41 PM" src="https://github.com/user-attachments/assets/59b0ef4c-414e-45cd-ba4f-2f4fe1034cf0" />
+
+</p>
+<p>
+ Next, navigate to C:\inetpub\wwwroot\osTicket\include\ and locate the file named ost-sampleconfig.php. Rename this file to ost-config.php, ensuring the filename matches exactly. This step creates the required configuration file that osTicket uses to store system settings during the installation process.
+</p>
