@@ -92,7 +92,8 @@ Next, install the Rewrite Module located in the osTicket installation files fold
 
 </p>
 <p>
-  Next, open IIS as an administrator and register PHP from within (PHP Manager -> C:\PHP\php-cgi.exe). After reload IIS by right clicking the server and selecting stop, waiting a moment, then selecting start.
+  Next, open IIS as an administrator and register PHP from within (PHP Manager -> C:\PHP\php-cgi.exe). After reload IIS by right clicking the server and selecting stop, waiting a moment, then selecting start. Then, go to sites -> Default -> osTicket. On the right, click “Browse *:80”
+
 </p>
 
 <p>
@@ -139,4 +140,7 @@ At this stage, note that some required PHP extensions may not yet be enabled. Re
 <p>
  <img width="822" height="641" alt="Screenshot 2026-02-24 at 6 16 23 PM" src="https://github.com/user-attachments/assets/fd47d2fa-a080-4d4f-9744-a023d1baa851" />
 
+</p>
+<p>
+ To complete the setup, continue the osTicket installation in your web browser by entering the database information when prompted. Set the MySQL database name to osTicket, specify the MySQL username you created earlier, and enter the corresponding MySQL password, then click “Install Now!”. If all steps were completed correctly, the installation should finish without errors and your osTicket help desk will be successfully installed and ready to use.
 </p>
