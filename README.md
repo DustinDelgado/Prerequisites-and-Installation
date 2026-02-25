@@ -102,8 +102,7 @@ Next, install the Rewrite Module located in the osTicket installation files fold
 
 </p>
 <p>
-  Next, intall os Ticket v1.15.8 from the osTicket Installation files folder,Install osTicket v1.15.8
-From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+  Next, intall os Ticket v1.15.8 from the osTicket Installation files folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 </p>
 
