@@ -129,7 +129,8 @@ At this stage, note that some required PHP extensions may not yet be enabled. Re
 </p>
 
 <p>
- <img width="759" height="511" alt="Screenshot 2026-02-24 at 6 08 58 PM" src="https://github.com/user-attachments/assets/97e566dd-7753-49dd-b7d9-530038d88efe" />
+<img width="593" height="456" alt="Screenshot 2026-02-24 at 6 12 41 PM" src="https://github.com/user-attachments/assets/11bc768c-8219-46f1-8be2-2c8470263f2b" />
+
 
 </p>
 <p>
