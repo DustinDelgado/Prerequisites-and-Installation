@@ -120,9 +120,23 @@ At this stage, note that some required PHP extensions may not yet be enabled. Re
 </p>
 
 <p>
- <img width="593" height="456" alt="Screenshot 2026-02-24 at 6 12 41 PM" src="https://github.com/user-attachments/assets/59b0ef4c-414e-45cd-ba4f-2f4fe1034cf0" />
+<img width="535" height="24" alt="Screenshot 2026-02-24 at 6 08 26 PM" src="https://github.com/user-attachments/assets/dfb7c13b-306d-4b40-99b3-801c6f886413" />
+
 
 </p>
 <p>
- Next, navigate to C:\inetpub\wwwroot\osTicket\include\ and locate the file named ost-sampleconfig.php. Rename this file to ost-config.php, ensuring the filename matches exactly. This step creates the required configuration file that osTicket uses to store system settings during the installation process.
+ Next, navigate to C:\inetpub\wwwroot\osTicket\include\ and locate the file named ost-sampleconfig.php. Rename this file to ost-config.php, ensuring the filename matches exactly. This step creates the required configuration file that osTicket uses to store system settings during the installation process. Continue the installion process from the browser.
+</p>
+
+<p>
+ <img width="759" height="511" alt="Screenshot 2026-02-24 at 6 08 58 PM" src="https://github.com/user-attachments/assets/97e566dd-7753-49dd-b7d9-530038d88efe" />
+
+</p>
+<p>
+ From the osTicket-Installation-Files folder, install HeidiSQL and then launch the application. Once open, create a new session using the username root and password root, and connect to the session. After successfully connecting, create a new database named osTicket, which will be used during the osTicket installation process to store ticket data and system information.
+</p>
+
+<p>
+ <img width="822" height="641" alt="Screenshot 2026-02-24 at 6 16 23 PM" src="https://github.com/user-attachments/assets/fd47d2fa-a080-4d4f-9744-a023d1baa851" />
+
 </p>
