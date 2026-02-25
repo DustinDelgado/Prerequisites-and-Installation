@@ -56,7 +56,7 @@ Next, install PHP manager located in the osTicket installation files folder.
 <br />
 
 <p>
-  <img width="500" height="411" alt="Screenshot 2026-02-24 at 5 38 23 PM" src="https://github.com/user-attachments/assets/60578639-818f-4b38-bbb3-ae5d2bc8559e" />
+ <img width="496" height="386" alt="Screenshot 2026-02-24 at 5 39 21 PM" src="https://github.com/user-attachments/assets/2d44775e-c2c8-4cfa-9030-259325fb787a" />
 
 </p>
 <p>
@@ -65,9 +65,42 @@ Next, install the Rewrite Module located in the osTicket installation files fold
 <br />
 
 <p>
-  
+ <img width="599" height="461" alt="Screenshot 2026-02-24 at 5 41 35 PM" src="https://github.com/user-attachments/assets/d373e030-591c-4f5f-afee-c5dc42c65f41" />
+ 
 </p>
 <p>
-  From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+ Navigate to the C: Drive and create a new folder and name it "PHP". Then, from the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
+<p>
+  <img width="474" height="292" alt="Screenshot 2026-02-24 at 5 44 37 PM" src="https://github.com/user-attachments/assets/33467d41-146b-423c-943f-cd0325d7da5b" />
+
+</p>
+<p>
+  From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+</p>
+
+<p>
+  <img width="488" height="378" alt="Screenshot 2026-02-24 at 5 44 58 PM" src="https://github.com/user-attachments/assets/8b708adb-2731-4acb-a697-8c6abc75f928" />
+
+</p>
+<p>
+  From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi). During installation select, "Typical Setup" and then after the install, launch "Configuration Wizard" and select "Standard Configuration".
+</p>
+
+<p>
+  <img width="518" height="314" alt="Screenshot 2026-02-24 at 5 49 38 PM" src="https://github.com/user-attachments/assets/26a479c4-5d95-4e47-82f3-bfc20f1de555" />
+
+</p>
+<p>
+  Next, open IIS as an administrator and register PHP from within (PHP Manager -> C:\PHP\php-cgi.exe). After reload IIS by right clicking the server and selecting stop, waiting a moment, then selecting start.
+</p>
+
+<p>
+  <img width="616" height="76" alt="Screenshot 2026-02-24 at 5 53 21 PM" src="https://github.com/user-attachments/assets/194f4757-cc61-42a7-a102-eaf582cfbbc3" />
+
+</p>
+<p>
+  Next, intall os Ticket v1.15.8 from the osTicket Installation files folder,Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 </p>
