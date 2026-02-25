@@ -96,7 +96,8 @@ Next, install the Rewrite Module located in the osTicket installation files fold
 </p>
 
 <p>
-  <img width="616" height="76" alt="Screenshot 2026-02-24 at 5 53 21 PM" src="https://github.com/user-attachments/assets/194f4757-cc61-42a7-a102-eaf582cfbbc3" />
+<img width="778" height="557" alt="Screenshot 2026-02-24 at 5 55 19 PM" src="https://github.com/user-attachments/assets/4af23f9b-2666-4e37-a6a2-874a5689d11a" />
+
 
 </p>
 <p>
@@ -104,3 +105,7 @@ Next, install the Rewrite Module located in the osTicket installation files fold
 From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 </p>
+
+
+<p>
+<img width="823" height="740" alt="Screenshot 2026-02-24 at 5 56 59 PM" src="https://github.com/user-attachments/assets/ab42a25a-4d2f-471f-87d6-fa2ec37bc29e" />
